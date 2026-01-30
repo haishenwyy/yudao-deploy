@@ -16,8 +16,8 @@ spec:
         app: gateway-service
     spec:
       containers:
-        - name: order-service
-          image: haishen108/yudao-gateway:1.0.0
+        - name: gateway-service
+          image: haishen108/yudao-gateway:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080

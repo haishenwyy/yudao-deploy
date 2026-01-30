@@ -23,7 +23,7 @@ spec:
             - containerPort: 8080
           env:
             - name: SPRING_PROFILES_ACTIVE
-              value: "k8s"
+              value: "local"
             - name: JAVA_OPTS
               value: "-Xms256m -Xmx512m"
           resources:
